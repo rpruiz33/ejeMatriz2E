@@ -6,8 +6,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-	 double[][] arr= {{1,2},{3,2}};
-	 double[][] arr2= {{1,1},{1,1}};
+	 double[][] arr= {{1,1,2},{1,1,2},{2,2,2}};
+	 double[][] arr2= {{1,1,2},{1,1,2},{2,2,2}};
 	 
 			ArregloBidimensional a=new 	ArregloBidimensional(arr);
 			ArregloBidimensional a1=new ArregloBidimensional(arr);
