@@ -89,7 +89,7 @@ public double[][] multiplicarzXm(double [][]matrizB){
 	
 	int filas =matrizA.length;
 	System.out.println("filas "+ filas);
-	int columnas=matrizA[3].length;
+	int columnas=matrizA[0].length;
 	System.out.println("columnas "+columnas );
 	double[][] resultado = new double[filas][columnas];
 	for (int i=0; i<filas;i++) {
